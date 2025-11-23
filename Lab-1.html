@@ -1,0 +1,87 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+<body>
+       <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="hero">
+            <h2>About Me</h2>
+            <img src="My photo.jpg" alt="image.jpg" style="border-radius: 50%;" />
+            <p>Hi, I’m Shashwat — I'm a web development student. This is my personal portfolio website.</p>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <table> 
+                    <tr>
+                        <th>Technology</th>
+                        <th>Level</th>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Intermediate</td>
+                    </tr>
+            </table>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <ul>
+                <li><strong>Portfolio Website</strong><br>
+                     A personal one-page website to showcase your bio, skills and
+                    contact details.</li>
+                <li><strong>Medium Clone</strong> <br>
+                    A simple blog layout that looks like Medium, built only with HTML
+                    and CSS.</li>
+                <li><strong>Birthday Card</strong><br>
+                     A creative greeting card webpage designed with HTML structure and
+                    CSS styling.</li>
+                <li><strong>User Form</strong> <br>
+                     A form webpage with fields like name, email, and message, for
+                    practicing form handling.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br />
+                <input type="text" id="name" name="name" placeholder="Your name" required /><br /><br />
+
+                <label for="email">Email:</label><br />
+                <input type="email" id="email" name="email" placeholder="you@example.com" required /><br /><br />
+
+                <label for="message">Message:</label><br />
+                <textarea id="message" name="message" rows="5" placeholder="Your message..."
+                    required></textarea><br /><br />
+
+                <button type="submit">Send </button> 
+            </form>
+        </section>
+    </main>
+    <a id="button" href="#top" class="top-btn">↑ Back to Top</a>
+ </body>
+</html>
